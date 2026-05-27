@@ -1,43 +1,38 @@
 Repositório de Jupyter Notebooks do livro de MAC0209 - Modelagem e Simulação do IME - USP. https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=MAC0209&verdis=1
 
-# 🚀 Modelagem e Simulação (Modeling and Simulation)
+# 🔬 Modelagem e Simulação Computacional
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-Data%20Processing-013243.svg)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-11557c.svg)](https://matplotlib.org/)
-[![SciPy](https://img.shields.io/badge/SciPy-Scientific%20Computing-8CAAE6.svg)](https://scipy.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg?logo=Jupyter)](https://jupyter.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Math%20%26%20Arrays-013243.svg)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visuals-11557c.svg)](https://matplotlib.org/)
 
 ## 📌 Sobre o Repositório
-Este repositório contém os projetos, simulações computacionais e exercícios práticos desenvolvidos durante o curso de Modelagem e Simulação. 
+Este repositório consolida projetos e estudos de caso em **Modelagem e Simulação**, desenvolvidos integralmente em Python através do Jupyter Notebook. 
 
-O objetivo principal deste portfólio é traduzir problemas matemáticos e físicos do mundo real em modelos computacionais eficientes, focando na otimização de algoritmos e na análise visual dos dados gerados.
+O foco central é a tradução de sistemas físicos e matemáticos complexos para modelos computacionais aplicados. Os notebooks abordam desde a resolução de equações diferenciais para cinemática até a análise de erros de precisão numérica da máquina, habilidades essenciais para engenharia de software científico, ciência de dados e pesquisa quantitativa.
 
-## 💼 Competências e Aplicações Desenvolvidas
-Os projetos aqui presentes demonstram habilidades aplicáveis diretamente à indústria (Data Science, Visão Computacional e Pesquisa Operacional), incluindo:
-
-* **Processamento de Sinais e Imagens:** Implementação de algoritmos de convolução 1D (sinais) e 2D (filtros e desfoque em imagens) utilizando matrizes e processamento de tensores.
-* **Otimização de Algoritmos:** Uso de Convolução Separável para reduzir drasticamente o custo computacional no processamento de imagens de alta resolução.
-* **Simulações Estocásticas:** Implementação do Método de Monte Carlo para estimativas estatísticas convergentes (como a aproximação de $\pi$).
-* **Data Visualization:** Geração de gráficos, plots logarítmicos e mapeamento de imagens (colormaps) para extração de *insights* visuais.
-* **Estruturação de Dados:** Leitura, limpeza e conversão de dados do mundo real (arquivos CSV, matrizes de pixels) para ambientes de simulação.
-
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
-* **Linguagem Principal:** Python
-* **Computação Científica:** `NumPy`, `SciPy`
-* **Análise de Dados:** `Pandas`
-* **Processamento de Imagens:** `Pillow (PIL)`
-* **Visualização:** `Matplotlib`
-* **Interfaces (GUI):** `Tkinter` (para seleção dinâmica de arquivos)
+## 💼 Competências Técnicas e Teóricas Demonstradas
+* **Sistemas Dinâmicos e Caos:** Análise de comportamento não-linear, bifurcações e sensibilidade a condições iniciais.
+* **Física Computacional:** Modelagem cinemática e dinâmica (integração numérica para simulação de trajetórias e forças).
+* **Análise Numérica:** Compreensão profunda sobre a representação de ponto flutuante (IEEE 754), propagação de erros, *machine epsilon* e estabilidade de algoritmos.
+* **Data Visualization:** Geração de gráficos complexos para interpretação de fenômenos físicos e dinâmicos utilizando `Matplotlib`.
 
 ## 📂 Estrutura dos Projetos
-> *Nota: Você pode descrever brevemente o que cada pasta do seu repositório faz aqui.*
 
-* `/Exercício-Programa 1/` - [Título ou breve descrição do que foi feito]
-* `/Exercício-Programa 2/` - [Título ou breve descrição do que foi feito]
-* `/Exercício-Programa 3/` - Simulações de Monte Carlo para convergência de erros.
-* `/Exercício-Programa 4/` - Filtros de imagens e Convoluções 2D.
+Abaixo estão os notebooks presentes neste repositório, cada um atacando um problema específico de modelagem:
 
-## 🚀 Como clonar e executar localmente
+* **`FloatEPrecisao.ipynb` (Precisão Numérica):** Uma análise fundamental sobre como os computadores lidam com números reais. Explora os limites do ponto flutuante, erros de arredondamento e implicações práticas na precisão de cálculos científicos.
+  
+* **`mapaLogistico.ipynb` (Teoria do Caos):** Estudo sobre sistemas dinâmicos não-lineares através do Mapa Logístico. Demonstra a evolução de populações biológicas, o surgimento do caos e a geração do diagrama de bifurcação.
+
+* **`quedaLivre.ipynb` (Física e Equações Diferenciais):** Modelagem do movimento de queda livre. Aplica métodos numéricos para simular a física de um objeto sob a ação da gravidade, analisando variáveis como velocidade, tempo e, potencialmente, resistência do ar.
+
+* **`drone.ipynb` (Cinemática / Dinâmica):** Simulação e modelagem matemática aplicadas ao movimento e controle de um drone, envolvendo vetores de força, balanço e trajetória no espaço.
+
+## 🚀 Como executar os projetos localmente
+
+Para reproduzir os notebooks e visualizar os gráficos interativamente na sua máquina:
 
 1. Clone o repositório:
 ```bash
