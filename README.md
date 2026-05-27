@@ -29,11 +29,3 @@ Abaixo estão os notebooks presentes neste repositório, cada um atacando um pro
 * **`quedaLivre.ipynb` (Física e Equações Diferenciais):** Modelagem do movimento de queda livre. Aplica métodos numéricos para simular a física de um objeto sob a ação da gravidade, analisando variáveis como velocidade, tempo e, potencialmente, resistência do ar.
 
 * **`drone.ipynb` (Cinemática / Dinâmica):** Simulação e modelagem matemática aplicadas ao movimento e controle de um drone, envolvendo vetores de força, balanço e trajetória no espaço.
-
-## 🚀 Como executar os projetos localmente
-
-Para reproduzir os notebooks e visualizar os gráficos interativamente na sua máquina:
-
-1. Clone o repositório:
-```bash
-git clone [https://github.com/ezequiel14carvalho/modelin-and-simulation.git](https://github.com/ezequiel14carvalho/modelin-and-simulation.git)
